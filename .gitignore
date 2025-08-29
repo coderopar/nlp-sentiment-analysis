@@ -1,0 +1,29 @@
+# ────────────────────────────────
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# ────────────────────────────────
+# Jupyter
+.ipynb_checkpoints/
+
+# ────────────────────────────────
+# Models
+models/
+*.joblib
+*.pkl
+
+# ────────────────────────────────
+# Data
+# Ignore all CSV datasets by default
+*.csv
+
+# Allow reports CSVs (e.g. evaluation metrics) to be committed
+!reports/*.csv
+
+# ────────────────────────────────
+# OS junk
+.DS_Store
+Thumbs.db
