@@ -74,7 +74,7 @@ The main Python libraries used include:
 ## Project Structure
 ```
 ├── sentiment_analysis.ipynb   # Main notebook
-├── sentiment_analysis_presentation.pptx   # Non-technical presentation
+├── sentiment_analysis.pptx   # Non-technical presentation
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies (to be created)
 ```
@@ -87,6 +87,11 @@ The main Python libraries used include:
 - Word clouds highlight frequent positive/negative terms.
 
 *(See notebook for detailed results.)*
+
+---
+
+## Deployment
+The selected SVM binary model was deployed and the link is in the repositoy's about section.
 
 ---
 
